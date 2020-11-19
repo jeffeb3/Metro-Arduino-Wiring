@@ -7,23 +7,23 @@
 #endif
 #include "Metro.h"
 
-Metro::Metro()
+Metro::Metro() :
+    previous_millis(0)
 {
     interval_millis = 1000;
-    reset();
 }
 
 
-Metro::Metro(unsigned long interval_millis)
+Metro::Metro(unsigned long a_interval_millis) :
+    previous_millis(0)
 {
-    interval_millis = interval_millis;
-    reset();
+    interval_millis = a_interval_millis;
 }
 
 
-void Metro::interval(unsigned long interval_millis)
+void Metro::interval(unsigned long a_interval_millis)
 {
-    interval_millis = interval_millis;
+    interval_millis = a_interval_millis;
 }
 
 uint8_t Metro::check()
