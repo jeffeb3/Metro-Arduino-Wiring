@@ -1,0 +1,24 @@
+{
+    "name": "Metro-Arduino-Wiring",
+    "authors":
+    {
+        "name": "Jeffeb3",
+        "email": "jeffeb3+github@gmail.com",
+        "url": "http://github.com/jeffeb3/Metro-Arduino-Wiring"
+    },
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/jeffeb3/Metro-Arduino-Wiring"
+    },
+    "license": "MIT",
+    "keywords": "iot, esp8266, esp32, serial, chrono",
+    "description": "A library to manage periodic schedules..",
+    "version": "1.0.1",
+    "examples": "examples/*/*.ino",
+    "frameworks": "arduino",
+    "platforms": [
+        "espressif",
+        "espressif32"
+    ]
+}
